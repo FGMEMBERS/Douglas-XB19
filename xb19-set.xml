@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="xb19-jsbsim-cnf.xml"> -->
+<PropertyList include="xb19-yasim-cnf.xml">
+
+  <sim>
+    <description>Douglas XB19</description>
+    <author>BARANGER Emmanuel</author>
+  </sim>
+
+</PropertyList>
+

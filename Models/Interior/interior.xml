@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+    <object-name>intverretourelle1</object-name>
+    <object-name>intverretourelle2</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+    <object-name>intverretourelle1</object-name>
+    <object-name>intverretourelle2</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>shader.png</texture>
+    <object-name>intvitres</object-name>
+    <object-name>intverretourelle1</object-name>
+    <object-name>intverretourelle2</object-name>
+  </animation>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Douglas-XB19/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -16.585 </x-m>
+      <y-m>  -0.696 </y-m>
+      <z-m>  -1.313 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Motrailleur de queue
+  <model>
+    <path>Aircraft/B-17/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> 10.512 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.262 </z-m>
+      <roll-deg>      0.0 </roll-deg>
+      <pitch-deg>     0.0 </pitch-deg>
+      <heading-deg> 180.0 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Planche de bord
+  <model>
+    <path>Aircraft/B-17/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -8.236 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.698 </z-m>
+    </offsets>
+  </model> -->
+
+</PropertyList>
+
